@@ -9,3 +9,5 @@ services:
     command: /bin/bash
     volumes:
       - ./data:/root/data
+  
+  
