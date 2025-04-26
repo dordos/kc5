@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  centos:
+    image: centos:7
+    container_name: sicolinux
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    volumes:
+      - ./data:/root/data
